@@ -1,1 +1,146 @@
-
+{
+  "version": "1.0",
+  "last_updated": "2025-01-21",
+  "books": [
+    {
+      "id": "book_6_math",
+      "title": "Mathematics",
+      "subject": "Mathematics",
+      "class_number": 6,
+      "stream": null,
+      "cover_image": "https://ncert.nic.in/textbook/pdf/cover/lemh1dd.jpg",
+      "pdf_url": "https://ncert.nic.in/textbook/pdf/lemh101.pdf",
+      "total_chapters": 14,
+      "description": "NCERT Mathematics textbook for Class 6 covering fundamental mathematical concepts including whole numbers, integers, fractions, decimals, algebra, ratio and proportion, geometry, and mensuration.",
+      "language": "English",
+      "publish_year": 2023,
+      "chapters": [
+        {
+          "id": "book_6_math_ch1",
+          "book_id": "book_6_math",
+          "chapter_number": 1,
+          "title": "Knowing Our Numbers",
+          "page_start": 1,
+          "page_end": 20
+        },
+        {
+          "id": "book_6_math_ch2",
+          "book_id": "book_6_math",
+          "chapter_number": 2,
+          "title": "Whole Numbers",
+          "page_start": 21,
+          "page_end": 40
+        },
+        {
+          "id": "book_6_math_ch3",
+          "book_id": "book_6_math",
+          "chapter_number": 3,
+          "title": "Playing with Numbers",
+          "page_start": 41,
+          "page_end": 60
+        }
+      ]
+    },
+    {
+      "id": "book_6_science",
+      "title": "Science",
+      "subject": "Science",
+      "class_number": 6,
+      "stream": null,
+      "cover_image": "https://ncert.nic.in/textbook/pdf/cover/fesc1dd.jpg",
+      "pdf_url": "https://ncert.nic.in/textbook/pdf/fesc101.pdf",
+      "total_chapters": 16,
+      "description": "NCERT Science textbook for Class 6 introducing basic concepts of physics, chemistry, and biology.",
+      "language": "English",
+      "publish_year": 2023,
+      "chapters": [
+        {
+          "id": "book_6_science_ch1",
+          "book_id": "book_6_science",
+          "chapter_number": 1,
+          "title": "Food: Where Does It Come From?",
+          "page_start": 1,
+          "page_end": 15
+        },
+        {
+          "id": "book_6_science_ch2",
+          "book_id": "book_6_science",
+          "chapter_number": 2,
+          "title": "Components of Food",
+          "page_start": 16,
+          "page_end": 30
+        }
+      ]
+    },
+    {
+      "id": "book_10_math",
+      "title": "Mathematics",
+      "subject": "Mathematics",
+      "class_number": 10,
+      "stream": null,
+      "cover_image": "https://ncert.nic.in/textbook/pdf/cover/jemh1dd.jpg",
+      "pdf_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "total_chapters": 15,
+      "description": "NCERT Mathematics textbook for Class 10 covering advanced topics including real numbers, polynomials, quadratic equations, arithmetic progressions, coordinate geometry, trigonometry, and statistics.",
+      "language": "English",
+      "publish_year": 2023,
+      "chapters": [
+        {
+          "id": "book_10_math_ch1",
+          "book_id": "book_10_math",
+          "chapter_number": 1,
+          "title": "Real Numbers",
+          "page_start": 1,
+          "page_end": 18
+        },
+        {
+          "id": "book_10_math_ch2",
+          "book_id": "book_10_math",
+          "chapter_number": 2,
+          "title": "Polynomials",
+          "page_start": 19,
+          "page_end": 36
+        },
+        {
+          "id": "book_10_math_ch3",
+          "book_id": "book_10_math",
+          "chapter_number": 3,
+          "title": "Pair of Linear Equations in Two Variables",
+          "page_start": 37,
+          "page_end": 62
+        }
+      ]
+    },
+    {
+      "id": "book_12_physics",
+      "title": "Physics Part 1",
+      "subject": "Physics",
+      "class_number": 12,
+      "stream": "Science",
+      "cover_image": "https://ncert.nic.in/textbook/pdf/cover/leph1dd.jpg",
+      "pdf_url": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+      "total_chapters": 8,
+      "description": "NCERT Physics Part 1 textbook for Class 12 covering electrostatics, current electricity, magnetic effects of current, electromagnetic induction, and alternating current.",
+      "language": "English",
+      "publish_year": 2023,
+      "chapters": [
+        {
+          "id": "book_12_physics_ch1",
+          "book_id": "book_12_physics",
+          "chapter_number": 1,
+          "title": "Electric Charges and Fields",
+          "page_start": 1,
+          "page_end": 25
+        },
+        {
+          "id": "book_12_physics_ch2",
+          "book_id": "book_12_physics",
+          "chapter_number": 2,
+          "title": "Electrostatic Potential and Capacitance",
+          "page_start": 26,
+          "page_end": 52
+        }
+      ]
+    }
+  ]
+}
