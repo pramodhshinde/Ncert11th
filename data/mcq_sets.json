@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-21",
+  "mcq_sets": [
+    {
+      "id": "mcq_math_10_ch1",
+      "title": "Real Numbers - Quick Test",
+      "subject": "Mathematics",
+      "class_number": 10,
+      "total_questions": 10,
+      "time_limit": 10,
+      "difficulty": "Easy",
+      "thumbnail": "",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Which of the following is an irrational number?",
+          "options": ["√4", "√9", "√2", "√16"],
+          "correct_answer": 2,
+          "hint": "An irrational number cannot be expressed as a fraction",
+          "explanation": "√2 is an irrational number because it cannot be expressed as a ratio of two integers. √4 = 2, √9 = 3, √16 = 4 are all rational."
+        },
+        {
+          "id": "q2",
+          "question": "What is the decimal expansion of a rational number?",
+          "options": [
+            "Always terminating",
+            "Always non-terminating",
+            "Either terminating or non-terminating repeating",
+            "Neither terminating nor repeating"
+          ],
+          "correct_answer": 2,
+          "hint": "Think about 1/3 and 1/4",
+          "explanation": "Rational numbers have decimal expansions that are either terminating (like 1/4 = 0.25) or non-terminating but repeating (like 1/3 = 0.333...)."
+        },
+        {
+          "id": "q3",
+          "question": "The HCF of two numbers is 12 and their LCM is 144. If one number is 36, what is the other number?",
+          "options": ["48", "72", "24", "60"],
+          "correct_answer": 0,
+          "hint": "Use the formula: Product of two numbers = HCF × LCM",
+          "explanation": "Using the formula: 36 × other number = 12 × 144 = 1728. Therefore, other number = 1728/36 = 48"
+        }
+      ]
+    },
+    {
+      "id": "mcq_physics_11_ch1",
+      "title": "Physical World - Test",
+      "subject": "Physics",
+      "class_number": 11,
+      "total_questions": 5,
+      "time_limit": 5,
+      "difficulty": "Medium",
+      "thumbnail": "",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Which of the following is a fundamental force in nature?",
+          "options": ["Friction", "Tension", "Gravitational force", "Normal force"],
+          "correct_answer": 2,
+          "hint": "Fundamental forces are basic forces in nature",
+          "explanation": "Gravitational force is one of the four fundamental forces in nature (gravitational, electromagnetic, strong nuclear, and weak nuclear)."
+        },
+        {
+          "id": "q2",
+          "question": "The SI unit of force is:",
+          "options": ["Joule", "Watt", "Newton", "Pascal"],
+          "correct_answer": 2,
+          "hint": "Named after a famous physicist",
+          "explanation": "The SI unit of force is Newton (N), named after Sir Isaac Newton."
+        }
+      ]
+    }
+  ]
+}
