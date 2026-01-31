@@ -141,8 +141,8 @@
     "correct_answer": 2,
     "hint": "The classification depends on the angle C.",
     "explanation": "The text splits the proof into cases where angle C is acute, obtuse, or a right angle."
-  }
-      ]
+    }
+    ]
     },
     {
       "id": "mcq_physics_11_ch1",
