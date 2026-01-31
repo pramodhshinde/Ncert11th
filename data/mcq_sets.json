@@ -13,34 +13,135 @@
       "thumbnail": "",
       "questions": [
         {
-          "id": "q1",
-          "question": "Which of the following is an irrational number?",
-          "options": ["√4", "√9", "√2", "√16"],
-          "correct_answer": 2,
-          "hint": "An irrational number cannot be expressed as a fraction",
-          "explanation": "√2 is an irrational number because it cannot be expressed as a ratio of two integers. √4 = 2, √9 = 3, √16 = 4 are all rational."
-        },
-        {
-          "id": "q2",
-          "question": "What is the decimal expansion of a rational number?",
-          "options": [
-            "Always terminating",
-            "Always non-terminating",
-            "Either terminating or non-terminating repeating",
-            "Neither terminating nor repeating"
-          ],
-          "correct_answer": 2,
-          "hint": "Think about 1/3 and 1/4",
-          "explanation": "Rational numbers have decimal expansions that are either terminating (like 1/4 = 0.25) or non-terminating but repeating (like 1/3 = 0.333...)."
-        },
-        {
-          "id": "q3",
-          "question": "The HCF of two numbers is 12 and their LCM is 144. If one number is 36, what is the other number?",
-          "options": ["48", "72", "24", "60"],
-          "correct_answer": 0,
-          "hint": "Use the formula: Product of two numbers = HCF × LCM",
-          "explanation": "Using the formula: 36 × other number = 12 × 144 = 1728. Therefore, other number = 1728/36 = 48"
-        }
+    "id": "q1",
+    "question": "According to Vladimir Arnold, proofs are to mathematics what _________ is to poetry.",
+    "options": [
+      "Grammar",
+      "Rhyme",
+      "Calligraphy",
+      "Rhythm"
+    ],
+    "correct_answer": 3,
+    "hint": "Compare the artistic structure of characters in a poem to the structure of a mathematical work.",
+    "explanation": "The text quotes Vladimir Arnold: \"Proofs are to Mathematics what calligraphy is to poetry\"."
+  },
+  {
+    "id": "q2",
+    "question": "A proof of a mathematical statement consists of a sequence of statements where each is justified by:",
+    "options": [
+      "A hypothesis or a guess",
+      "A definition, axiom, or previously established proposition",
+      "Experimental data and observation",
+      "A counter example"
+    ],
+    "correct_answer": 2,
+    "hint": "Think about the chain of deductive arguments.",
+    "explanation": "A proof consists of a sequence of statements, each justified with a definition, an axiom, or a proposition that is previously established."
+  },
+  {
+    "id": "q3",
+    "question": "In a direct proof, how does the process begin?",
+    "options": [
+      "By assuming the conclusion is false",
+      "By splitting the statement into multiple cases",
+      "By starting directly with what is given in the proposition",
+      "By finding an example where the statement fails"
+    ],
+    "correct_answer": 3,
+    "hint": "The name \"Direct Proof\" implies a straightforward approach.",
+    "explanation": "In a Direct Proof, we directly start the proof with what is given in the proposition."
+  },
+  {
+    "id": "q4",
+    "question": "In Example 1, to prove \"if x²−5x+6=0, then x=3 or x=2\", which algebraic method is initially used?",
+    "options": [
+      "The quadratic formula",
+      "Factorization",
+      "Completing the square",
+      "Differentiation"
+    ],
+    "correct_answer": 2,
+    "hint": "The equation is transformed into (x−3)(x−2)=0.",
+    "explanation": "The text states the first step is proved by factorization: x²−5x+6=(x−3)(x−2)."
+  },
+  {
+    "id": "q5",
+    "question": "When proving the function f(x)=2x+5 is one-one using a direct method, what is the starting assumption?",
+    "options": [
+      "x₁ ≠ x₂",
+      "f(x₁)=f(x₂)",
+      "f(x₁) ≠ f(x₂)",
+      "x₁ = x₂"
+    ],
+    "correct_answer": 2,
+    "hint": "The definition of a one-one function dictates the starting premise.",
+    "explanation": "The proof begins with the given that f(x₁)=f(x₂) and deduces that x₁=x₂."
+  },
+  {
+    "id": "q6",
+    "question": "Mathematical Induction depends on an axiom related to a subset S of natural numbers N. Which condition must be met first?",
+    "options": [
+      "The natural number k is in S",
+      "The natural number k+1 is in S",
+      "The natural number 1 is in S",
+      "The set S is finite"
+    ],
+    "correct_answer": 3,
+    "hint": "Induction requires a base case or starting point.",
+    "explanation": "The axiom states that the natural number 1 must belong to the set S."
+  },
+  {
+    "id": "q7",
+    "question": "In the principle of mathematical induction, if a statement S(n) is true for n=k, we must prove it is true for:",
+    "options": [
+      "n = k − 1",
+      "n = k + 1",
+      "n = 2k",
+      "n = 1"
+    ],
+    "correct_answer": 2,
+    "hint": "The inductive step moves from one integer to the immediate next.",
+    "explanation": "The principle states that if S(n) is true for n=k, then S(n) must be true for n=k+1."
+  },
+  {
+    "id": "q8",
+    "question": "In Example 3 involving matrices, to prove P(k+1), the term A^(k+1) is written as:",
+    "options": [
+      "A^k + A",
+      "A^k / A",
+      "A^k ⋅ A",
+      "A^(k−1) ⋅ A^2"
+    ],
+    "correct_answer": 3,
+    "hint": "Think about the laws of exponents applied to matrix multiplication.",
+    "explanation": "The solution states that A^(k+1) = A^k ⋅ A."
+  },
+  {
+    "id": "q9",
+    "question": "Proof by cases is a valid method to prove p⇒q only when:",
+    "options": [
+      "p can be split into cases r, s, t such that p = r ∨ s ∨ t",
+      "q can be split into cases r, s, t such that q = r ∨ s ∨ t",
+      "The number of cases is infinite",
+      "It is impossible to use deductive reasoning"
+    ],
+    "correct_answer": 1,
+    "hint": "The hypothesis must be exhaustive.",
+    "explanation": "This method is possible only when p can be split into several exhaustive cases."
+  },
+  {
+    "id": "q10",
+    "question": "In Example 4, to prove the projection formula a = bcosC + ccosB, the triangle ABC is split into which three cases?",
+    "options": [
+      "Isosceles, Scalene, Equilateral",
+      "Acute angled, Obtuse angled, Right angled",
+      "Small, Medium, Large",
+      "Positive area, Negative area, Zero area"
+    ],
+    "correct_answer": 2,
+    "hint": "The classification depends on the angle C.",
+    "explanation": "The text splits the proof into cases where angle C is acute, obtuse, or a right angle."
+  }
       ]
     },
     {
