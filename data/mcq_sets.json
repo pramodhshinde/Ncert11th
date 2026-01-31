@@ -54,21 +54,70 @@
       "thumbnail": "",
       "questions": [
         {
-          "id": "q1",
-          "question": "Which of the following is a fundamental force in nature?",
-          "options": ["Friction", "Tension", "Gravitational force", "Normal force"],
-          "correct_answer": 2,
-          "hint": "Fundamental forces are basic forces in nature",
-          "explanation": "Gravitational force is one of the four fundamental forces in nature (gravitational, electromagnetic, strong nuclear, and weak nuclear)."
-        },
-        {
-          "id": "q2",
-          "question": "The SI unit of force is:",
-          "options": ["Joule", "Watt", "Newton", "Pascal"],
-          "correct_answer": 2,
-          "hint": "Named after a famous physicist",
-          "explanation": "The SI unit of force is Newton (N), named after Sir Isaac Newton."
-        }
+    "id": "q1",
+    "question": "संसर्गजन्य रोग (Infectious Diseases) प्रामुख्याने कोणत्या घटकांमुळे होतात?",
+    "options": [
+      "जीवनशैलीतील बदल",
+      "दूषित हवा, पाणी, अन्न किंवा वाहक",
+      "अनुवंशिकता",
+      "चयापचय क्रियांत बिघाड"
+    ],
+    "correct_answer": 1,
+    "hint": "हे रोग बाह्य माध्यमांमार्फत पसरतात.",
+    "explanation": "संसर्गजन्य रोग हे दूषित हवा, पाणी, अन्न किंवा वाहक (कीटक व प्राणी) यांसारख्या बाह्य माध्यमांमार्फत पसरतात."
+  },
+  {
+    "id": "q2",
+    "question": "खालीलपैकी कोणते वैशिष्ट्य असंसर्गजन्य रोगांचे (Non-infectious Diseases) आहे?",
+    "options": [
+      "हे रोग साथीच्या स्वरूपात पसरतात.",
+      "हे रोग विशिष्ट सूक्ष्मजीवांमुळे होतात.",
+      "हे रोग थेट संपर्कातून एका व्यक्तीकडून दुसऱ्या व्यक्तीकडे पसरत नाहीत.",
+      "हे रोग प्रतिजैविकांनी (Antibiotics) बरे होतात."
+    ],
+    "correct_answer": 2,
+    "hint": "हे रोग संक्रामक नसतात.",
+    "explanation": "असंसर्गजन्य रोग संसर्गातून किंवा थेट संपर्कातून एका व्यक्तीकडून दुसऱ्या व्यक्तीकडे पसरत नाहीत आणि ते सूक्ष्मजीवांमुळे होत नाहीत."
+  },
+  {
+    "id": "q3",
+    "question": "संसर्गजन्य रोगांवर मुख्य उपचार पद्धती कोणती असते?",
+    "options": [
+      "फिजिओथेरपी",
+      "आहार नियंत्रण",
+      "प्रतिजैविके (Antibiotics) आणि लस",
+      "जीवनशैलीत बदल"
+    ],
+    "correct_answer": 2,
+    "hint": "यामध्ये रोगकारकांना नष्ट करणे अपेक्षित असते.",
+    "explanation": "संसर्गजन्य रोगांवर प्रतिजैविके, लस आणि विषाणू-विरोधी औषधे वापरून रोगकारकांना नष्ट करणे हा मुख्य उपचार असतो."
+  },
+  {
+    "id": "q4",
+    "question": "खालीलपैकी कोणता रोग 'असंसर्गजन्य' गटात मोडतो?",
+    "options": [
+      "क्षय (Tuberculosis)",
+      "मधुमेह (Diabetes)",
+      "इन्फ्लुएन्झा",
+      "डेंग्यू"
+    ],
+    "correct_answer": 1,
+    "hint": "हा रोग जीवनशैली किंवा चयापचयाशी संबंधित आहे.",
+    "explanation": "मधुमेह हा असंसर्गजन्य रोग आहे, तर क्षय, इन्फ्लुएन्झा आणि डेंग्यू हे संसर्गजन्य आहेत."
+  },
+  {
+    "id": "q5",
+    "question": "संसर्गजन्य रोगांचा कालावधी व तीव्रता सामान्यतः कशी असते?",
+    "options": [
+      "दीर्घकालीन (Chronic)",
+      "तीव्र (Acute) आणि कमी काळात बरे होणारे",
+      "आयुष्यभर राहणारे",
+      "यापैकी नाही"
+    ],
+    "correct_answer": 1,
+    "hint": "हे रोग अचानक उद्भवतात.",
+    "explanation": "संसर्गजन्य रोग अनेकदा तीव्र (Acute) स्वरूपाचे असतात आणि औषधोपचाराने कमी काळात बरे होऊ शकतात."
+  }
       ]
     }
   ]
